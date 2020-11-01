@@ -24,6 +24,84 @@
 </head>
 
 <body>
+    <header></header>
+        <div class="spinner" id="preloader">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+        <script type="text/javascript">
+            (function () {
+                var preload = document.getElementById("preloader");
+                var loading = 0;
+                var id = setInterval(frame, 64);
+                function frame() {
+                    if (loading == 100) {
+                        clearInterval(id);
+                    } else {
+                        loading = loading + 1;
+                        if (loading == 90) {
+                            preload.style.opacity = "0";
+                        }
+                    }
+                }
+            })();
+        </script>
+        <style>
+            .spinner {
+                position: absolute;
+                height: 2em;
+                width: 2em;
+                overflow: show;
+                margin: auto;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 70px;
+                text-align: center;
+            }
+            .spinner>div {
+                width: 18px;
+                height: 18px;
+                background-color: #000000;
+                border-radius: 100%;
+                display: inline-block;
+                -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+                animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+            }
+            .spinner .bounce1 {
+                -webkit-animation-delay: -0.32s;
+                animation-delay: -0.32s;
+            }
+            .spinner .bounce2 {
+                -webkit-animation-delay: -0.16s;
+                animation-delay: -0.16s;
+            }
+            @-webkit-keyframes sk-bouncedelay {
+                0%,
+                80%,
+                100% {
+                    -webkit-transform: scale(0)
+                }
+                40% {
+                    -webkit-transform: scale(1.0)
+                }
+            }
+            @keyframes sk-bouncedelay {
+                0%,
+                80%,
+                100% {
+                    -webkit-transform: scale(0);
+                    transform: scale(0);
+                }
+                40% {
+                    -webkit-transform: scale(1.0);
+                    transform: scale(1.0);
+                }
+            }
+        </style>
+    </header>
     <div id="bg">
         <img src="https://pixelsharing.files.wordpress.com/2010/11/background-1-tileable-and-seamless-pattern.jpg"
             alt="" srcset="">
@@ -121,7 +199,7 @@
             cause death. In Pakistan the rising prevalence of tobacco among youth is unignorable with male youth to be
             the most outstanding smoker, hence this issue needs to be focused upon.
         </p>
-        <div id="graph4">
+        <div id="graph2">
             <script id="infogram_0_a6f40587-32d8-49d4-b766-ce5801cf8a48" title="Untitled facebook post"
                 src="https://e.infogram.com/js/dist/embed.js?cNz" type="text/javascript"></script>
             <div
@@ -182,31 +260,41 @@
             allowfullscreen></iframe>
         <div id="petition">
             <h3>Petition</h3>
-            Please sign our petition to usher the Pakistani Government into stricter implementation of an already passed law of 2002.
-            <a href="https://www.change.org/search?q=ban%20selling%20of%20cigarettes%20to%20underage%20kids%20in%20Pakistan">Click Here To Sign</a>
+            Please sign our petition to usher the Pakistani Government into stricter implementation of an already passed
+            law of 2002.
+            <a
+                href="https://www.change.org/p/imran-ahmed-khan-ban-selling-of-cigarettes-to-underage-kids-in-pakistan?utm_content=cl_sharecopy_25382775_en-US%3A4&recruiter=837169565&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition&utm_term=share_petition">Click
+                Here To Sign</a>
         </div>
-        <h3 id="sh3">About SSNGO</h3>
         <div id="about">
+            <h3 id="sh3">About SSNGO</h3><br>
             StopSmokingNGO! is a Gloabl Perspectives Initiative started by three students: <br>
-            Muhammad Khizar (Web Engineer) <br>
-            Chen Xiyang (Petition Organizer) <br>
-            Zain Atif (Social Media Handler). <br>
             Our aim is to spread awareness about the cultural perspectives as well as general information about smoking
             among teenagers. <br>
             All of our effort is to gauge statistics and possibly reduce the number of teenage smokers.
         </div>
-        <div id="contact"><h3>Contact Us:</h3><br><br>
+        <div id="contact">
+            <h2>Contact-Us:</h2>
+            Links: <br>
             <a href="https://www.instagram.com/stopsmoking.ngo/">INSTAGRAM DM!</a><br>
-            <a href="mailto:teamchainsmoke@gmail.com">EMAIL US!</a> 
+            <a href="mailto:teamchainsmoke@gmail.com">EMAIL US!</a>
         </div>
-        <div id="founders"><h3>Founders:</h3>
-            <h4>Chen Xiyang: </h4><br>
-            <h4>Muhammad Khizar: </h4><br>
-            16, software engineering hobbyist, robotics and grayhat-hacking among other. I coded this website.  <br>
-            <h4>Zaina Atif: </h4><br>
+        <div id="founders">
+            <h3>Founders:</h3>
+            <h4> &diams; Chen Xiyang: </h4><br>
+            <h4> &diams; Muhammad Khizar: </h4><br>
+            "BDC student, 16, software engineering hobbyist, robotics and grayhat-hacking among other hobbies. Too much
+            time, too little motif. I coded this website. <br>
+            <h4> &diams; Zaina Atif: </h4><br> "Student at BDC Lahore. I believe GP is a really important subject to
+            spread awareness about
+            major and minor issues amongst youngsters, and that is my goal for pursuing this project."
         </div>
     </section>
 
 </body>
+<!--CSS Spinner-->
+<div class="spinner-wrapper">
+    <div class="spinner"></div>
+</div>
 
 </html>
