@@ -431,6 +431,7 @@ h3{
         position: relative;
         grid-column: 1;
         grid-row: 5;
+        width: 60vw;
         
     }
     #graph1 img{
