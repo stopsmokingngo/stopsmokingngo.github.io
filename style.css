@@ -433,13 +433,15 @@ h3{
         grid-row: 5;
         /* width: 60vw; */
         /* height: 60vw; */
+        margin-left: 20vw;
         
     }
     #graph1 img{
         width: 60vw;
-        /* height: auto; */
-        padding-left: 20vw;
-        padding-right: 20vw;
+        height: auto;
+        /* padding-left: 20vw; */
+        
+
     }
 
 }
