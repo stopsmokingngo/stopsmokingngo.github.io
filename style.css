@@ -397,7 +397,7 @@ h3{
 @media screen and (max-width: 580px){
 #insta{ 
     /* position: fixed; */
-    scale: 0.5;
+    scale: 0.4;
     top: 0rem;
     right: -4rem;
     transform: rotate(90deg);
@@ -460,7 +460,7 @@ h3{
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    padding: 15px;
     margin: 0px auto auto auto;
     
 }
@@ -476,16 +476,17 @@ h3{
     /* z-index: -1; */
 }
 #p2{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 4;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
     margin: 0px auto auto auto;
 }
 #graph1{
+    /* padding: 15px; */
     padding-top: 1vh;
     grid-column: 1;
     grid-row: 5;;
@@ -499,16 +500,18 @@ h3{
     
 }
 #p3{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 6;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: 0px auto auto auto;
 }
 #graph2{
+    padding: 15px;
     padding-top: 1vh;
     grid-column: 1;
     grid-row: 7;;
@@ -522,13 +525,14 @@ h3{
     
 }
 #p4{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 8;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: 0px auto auto auto;
 }
 #graph3{
@@ -545,13 +549,14 @@ h3{
     
 }
 #p5{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 10;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: 0px auto auto auto;
 }
 
@@ -583,43 +588,47 @@ h3{
     
 }
 #petition{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 13;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: 0px auto auto auto;
 }
 #about{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 14;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: 0px auto auto auto;
 }
 #founders{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 15;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: 0px auto auto auto;
 }
 #contact{
+    padding: 15px;
     padding-top: 10vw;
     font-size: 1rem;
     grid-row: 16;
     grid-column: 1;
     scale: 0.9;
     margin-right: 18vw;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin: 0px auto auto auto;
 }
 }
