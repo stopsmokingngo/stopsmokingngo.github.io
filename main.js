@@ -16,9 +16,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar").style.display = "inline-flex";
   } else {
-    document.getElementById("navbar").style.top = "-150px";
+    document.getElementById("navbar").style.display = "none";
   }
   prevScrollpos = currentScrollPos;
 } 
